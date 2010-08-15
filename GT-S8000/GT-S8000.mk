@@ -5,6 +5,11 @@ PRODUCT_PACKAGES := \
     Development \
     SpareParts \
     Terminal \
+    Gallery3D \
+    JetCalibrate \
+    Superuser \
+    su-Superuser \
+    Openmanager \
 
 $(call inherit-product, build/target/product/generic.mk)
 
