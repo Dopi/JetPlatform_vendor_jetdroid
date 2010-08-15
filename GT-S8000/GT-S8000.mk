@@ -6,6 +6,7 @@ PRODUCT_PACKAGES := \
     SpareParts \
     Terminal \
     Gallery3D \
+    Launcher2 \
     JetCalibrate \
     Superuser \
     su-Superuser \
