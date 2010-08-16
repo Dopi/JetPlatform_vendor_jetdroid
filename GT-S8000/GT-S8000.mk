@@ -4,7 +4,7 @@ PRODUCT_PACKAGES := \
     MediaPlayer \
     Development \
     SpareParts \
-    Terminal \
+    Term \
     Gallery3D \
     Launcher2 \
     ADWLauncher \
