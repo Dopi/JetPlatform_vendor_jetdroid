@@ -7,6 +7,7 @@ PRODUCT_PACKAGES := \
     Terminal \
     Gallery3D \
     Launcher2 \
+    ADWLauncher \
     JetCalibrate \
     Superuser \
     su-Superuser \
