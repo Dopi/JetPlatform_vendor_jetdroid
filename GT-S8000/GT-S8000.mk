@@ -6,8 +6,7 @@ PRODUCT_PACKAGES := \
     SpareParts \
     Term \
     Gallery3D \
-    Launcher2 \
-    ADWLauncher \
+    Launcher \
     JetCalibrate \
     Superuser \
     su-Superuser \
@@ -20,3 +19,10 @@ PRODUCT_BRAND := GT-S8000
 PRODUCT_DEVICE := GT-S8000
 PRODUCT_NAME := GT-S8000
 
+#    Launcher2 \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    VisualizationWallpapers \
+#    libRS \
+#    librs_jni \
+#    ADWLauncher \
