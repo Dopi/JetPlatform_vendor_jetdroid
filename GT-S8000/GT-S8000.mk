@@ -11,7 +11,6 @@ PRODUCT_PACKAGES := \
     Superuser \
     su-Superuser \
     Openmanager \
-    ADWLauncher \
 
 $(call inherit-product, build/target/product/generic.mk)
 
