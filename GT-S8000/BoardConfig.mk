@@ -13,3 +13,15 @@ BOARD_USES_GENERIC_AUDIO := true
 BOARD_USES_ALSA_AUDIO := true
 
 BOARD_HAVE_BLUETOOTH := false
+
+###############################################################
+############## JetDroid Modifications Start ###################
+
+BOARD_WPA_SUPPLICANT_DRIVER := WEXT
+WIFI_DRIVER_MODULE_PATH := /system/lib/modules/dhd.ko
+WIFI_DRIVER_MODULE_NAME := dhd
+WIFI_DRIVER_MODULE_ARG := nvram_path=/system/etc/wifi/nvram.txt
+WIFI_FIRMWARE_LOADER :=
+
+############## JetDroid Modifications End #####################
+###############################################################
