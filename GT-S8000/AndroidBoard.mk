@@ -35,18 +35,18 @@ include $(BUILD_PREBUILT)
 # firmware for wifi driver
 # needs to be enabled if firmware is not built in the driver
 
-#include $(CLEAR_VARS)
+include $(CLEAR_VARS)
 
-#LOCAL_MODULE := rtecdc.bin
+LOCAL_MODULE := rtecdc.bin
 
-#LOCAL_MODULE_TAGS := user development
+LOCAL_MODULE_TAGS := user development
 
-#LOCAL_MODULE_CLASS := ETC
-#LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/wifi
 
-#LOCAL_SRC_FILES := $(LOCAL_MODULE)
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
 
-#include $(BUILD_PREBUILT)
+include $(BUILD_PREBUILT)
 
 ############## JetDroid Modifications End #####################
 ###############################################################

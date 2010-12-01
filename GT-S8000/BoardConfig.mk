@@ -20,7 +20,7 @@ BOARD_HAVE_BLUETOOTH := false
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
 WIFI_DRIVER_MODULE_PATH := /system/lib/modules/dhd.ko
 WIFI_DRIVER_MODULE_NAME := dhd
-WIFI_DRIVER_MODULE_ARG := nvram_path=/system/etc/wifi/nvram.txt
+WIFI_DRIVER_MODULE_ARG := firmware_path=/system/etc/wifi/rtecdc.bin nvram_path=/system/etc/wifi/nvram.txt
 WIFI_FIRMWARE_LOADER :=
 
 ############## JetDroid Modifications End #####################
