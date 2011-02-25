@@ -20,11 +20,5 @@
 
 LOCAL_PATH := $(call my-dir)
 
-TARGET_ARCH_VARIANT := armv6-vfp 
-TARGET_ARCH_VARIANT_CPU := arm1176jzf-s
-
-#
-# Hack, because i'm lazy :)
-#
 include device/samsung/spica/BoardConfig.mk
 
