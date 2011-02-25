@@ -3,10 +3,14 @@
 
 alpha_b1
 * initial build of SM (cadavre)
-* reworked vendor especially for Spica (cadavre)
 * included official Gingerbread theme (cadavre)
 * hi-res png for GB theme (Kyojin)
 * Statusbar music controls (cadavre)
 * settings for HOLD button (cadavre)
+* keep SU in memory to avoid non-granting su access (cadavre)
 * new CMParts adapted from Gingerbread (cadavre)
-* added SMParts for specific system settings (nebkat)
+* added SMParts (nebkat)
+* added SM-froyo specific prop settings (guybrusht)
+* framework removals: (cadavre)
+- Bluetooth HID
+- mouse pointer
