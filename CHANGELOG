@@ -1,16 +1,21 @@
- SpicagenMod Froyo, based on CyanogenMod 6.1.1
+SpicagenMod Froyo, based on CyanogenMod 6.1.1
+great thanks to LeshaK & criminal - grandfathers of this project
 ========
 
-alpha_b1
+pre-beta-1
 * initial build of SM (cadavre)
+* added SM-froyo specific prop settings (guybrusht)
 * included official Gingerbread theme (cadavre)
 * hi-res png for GB theme (Kyojin)
+* Ubuntu fonts (cadavre)
 * Statusbar music controls (cadavre)
 * settings for HOLD button (cadavre)
 * keep SU in memory to avoid non-granting su access (cadavre)
+* volume button orientation mapping (cadavre)
+* orientation listener changes (cadavre)
+* wake screen on new notification (f.e. sms, reminder, usb...) (cadavre)
 * new CMParts adapted from Gingerbread (cadavre)
-* added SMParts (nebkat)
-* added SM-froyo specific prop settings (guybrusht)
+* created SMParts based on new CMParts (nebkat)
 * framework removals: (cadavre)
 - Bluetooth HID
 - mouse pointer
