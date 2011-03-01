@@ -87,6 +87,7 @@ include frameworks/base/data/sounds/AudioPackage4.mk
 
 PRODUCT_COPY_FILES += \
     vendor/spica/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/spica/prebuilt/common/bin/firstboot.sh:system/bin/firstboot.sh \
     vendor/spica/prebuilt/common/bin/remount:system/bin/remount \
     vendor/spica/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/spica/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
