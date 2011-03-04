@@ -2,7 +2,14 @@ SpicagenMod Froyo, based on CyanogenMod 6.1.1
 great thanks to LeshaK & criminal - grandfathers of this project
 ========
 
-pre-beta-1
+pre-beta-2 (alpha_b2)
+* [source] vendor & device trees cleaning and fixing [LeshaK]
+* DPad music controls fixes (cadavre)
+* SMParts bug fixes (cadavre)
+* YouTube hq play fix (cadavre)
+* fix for default statusbar text colors (cadavre)
+
+pre-beta-1 (alpha_b1)
 * initial build of SM (cadavre)
 * added SM-froyo specific prop settings (guybrusht)
 * included official Gingerbread theme (cadavre)
@@ -19,4 +26,3 @@ pre-beta-1
 * framework removals: (cadavre)
 - Bluetooth HID
 - mouse pointer
-
