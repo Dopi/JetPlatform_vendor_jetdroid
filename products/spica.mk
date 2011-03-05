@@ -12,9 +12,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 PRODUCT_NAME=GT-I5700 BUILD_FINGERPRINT=samsung/GT-I5700/GT-I5700/GT-I5700:2.2.1/FRG83/60505:user/release-keys TARGET_BUILD_TYPE=userdebug BUILD_VERSION_TAGS=release-keys
 PRIVATE_BUILD_DESC="spica-user 2.2.1 FRG83 SM-froyo"
 
-
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=SpicagenMod-CMbased611-alpha_b1
+    ro.modversion=SpicagenMod-CMbased611-alpha_b2
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
@@ -54,10 +53,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #scan interval
 PRODUCT_PROPERTY_OVERRIDES += \
-wifi.supplicant_scan_interval=90
+    wifi.supplicant_scan_interval=90
 
 PRODUCT_PACKAGES += \
     ADWLauncher \
+    openvpn \
     SMParts \
     SMPartsHelper \
     DSPManager \
