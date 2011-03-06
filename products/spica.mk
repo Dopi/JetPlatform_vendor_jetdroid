@@ -136,7 +136,6 @@ ifdef SPICA_WITH_GOOGLE
 	vendor/spica/proprietary/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
 	vendor/spica/proprietary/SetupWizard.apk:system/app/SetupWizard.apk \
 	vendor/spica/proprietary/Talk.apk:system/app/Talk.apk \
-	vendor/spica/proprietary/talkback.apk:system/app/talkback.apk \
 	vendor/spica/proprietary/Twitter.apk:system/app/Twitter.apk \
 	vendor/spica/proprietary/Vending.apk:system/app/Vending.apk \
 	vendor/spica/proprietary/VoiceSearch.apk:system/app/VoiceSearch.apk \
