@@ -8,6 +8,7 @@ pre-beta-2 (alpha_b2)
 * SMParts bug fixes (cadavre)
 * YouTube hq play fix (cadavre)
 * fix for default statusbar text colors (cadavre)
+* OpenVPN fixes
 
 pre-beta-1 (alpha_b1)
 * initial build of SM (cadavre)
