@@ -1,14 +1,29 @@
 SpicagenMod Froyo, based on CyanogenMod 6.1.1
-great thanks to LeshaK & criminal - grandfathers of this project
+great thanks to LeshaK & criminal - "grandfathers" of this project
+========
+Major TODO's:
+- SIM Toolkit
+- USSD codes
+- BT bugs and avrcp
+- kernel
+- DivX
+- RTL support is coming in next release!
 ========
 
 pre-beta-2 (alpha_b2)
-* [source] vendor & device trees cleaning and fixing [LeshaK]
+* [source] vendor & device trees cleaning and fixing (LeshaK)
 * DPad music controls fixes (cadavre)
 * SMParts bug fixes (cadavre)
 * YouTube hq play fix (cadavre)
+* new gapps 20110301 (piskor)
+* new Superuser and su lib (cadavre/criminal)
 * fix for default statusbar text colors (cadavre)
-* OpenVPN fixes
+* OpenVPN fixes (cadavre)
+* HU translation (HU translation team)
+* SMParts translations (Samdroid.net community)
+* "Launcher settings" bug fix (cadavre)
+* 3 secs long-press BACK to kill (cadavre)
+* minor changes (SM team)
 
 pre-beta-1 (alpha_b1)
 * initial build of SM (cadavre)
@@ -27,3 +42,4 @@ pre-beta-1 (alpha_b1)
 * framework removals: (cadavre)
 - Bluetooth HID
 - mouse pointer
+
