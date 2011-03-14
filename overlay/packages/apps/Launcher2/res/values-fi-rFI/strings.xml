@@ -16,7 +16,6 @@
   <string name="menu_item_add_item">Lisää kotinäytölle</string>
   <string name="group_applications">Sovellukset</string>
   <string name="group_shortcuts">Pikakuvakkeet</string>
-  <string name="group_search">Haku</string>
   <string name="group_folder">Uusi kansio</string>
   <string name="group_live_folders">Kansiot</string>
   <string name="group_widgets">Widgetit</string>
@@ -24,7 +23,6 @@
   <string name="add_folder">Kansio</string>
   <string name="add_clock">Kello</string>
   <string name="add_photo_frame">Kuvakehys</string>
-  <string name="add_search">Etsi</string>
   <string name="out_of_space">Ei enää tilaa tässä Kotinäytössä.</string>
   <string name="shortcut_installed">Pikakuvake \"\" luotu.</string>
   <string name="shortcut_uninstalled">Pikakuvake \"\" poistettiin.</string>
@@ -47,6 +45,5 @@
   <string name="permdesc_read_settings">Sallii sovelluksen lukea kotinäytön asetuksia ja pikakuvakkeita.</string>
   <string name="permlab_write_settings">muuta kotinäytön asetuksia ja pikakuvakkeita</string>
   <string name="permdesc_write_settings">Sallii sovelluksen muuttaa asetuksia ja pikakuvakkeita kotinäytöllä.</string>
-  <string name="search_hint">Google-haku</string>
   <string name="gadget_error_text">Ongelma widgetin latauksessa</string>
 </resources>

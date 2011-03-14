@@ -3,7 +3,6 @@
 <resources>
   <string name="app_name">Pääkäyttäjä</string>
   <string name="app_name_request">Pääkäyttäjä-pyyntö</string>
-  <string name="expected_su_version">2.3.1</string>
   <string name="update_filename">su-2.3.1-bin-signed.zip</string>
   <string name="permlab_respond">vastaus pääkäyttäjä-pyyntöihin</string>
   <string name="permdesc_respond">Sallii sovelluksen vastata pyyntöihin pääkäyttäjä-oikeuksista.</string>
@@ -30,7 +29,6 @@
   <string name="no_log_data">Ei lokitietoa</string>
   <string name="last_allowed">Viimeinen sallittu:</string>
   <string name="last_denied">Edellinen evätty:</string>
-  <string name="empty">Ei sovelluksia luettelossa</string>
   <string name="detail_package">Paketti:</string>
   <string name="detail_request">Pyydetty UID:</string>
   <string name="detail_command">Komento:</string>

@@ -68,10 +68,4 @@
   <string name="around">Noin</string>
   <string name="date_unknown">Tuntematon päivämäärä</string>
   <string name="video_err">Videon toistaminen ei onnistu</string>
-  <string name="menu_open_url">Avaa URL</string>
-  <string name="video_set_url_pos">Avaa</string>
-  <string name="video_set_url_neg">Peru</string>
-  <string name="video_set_url_title">Avaa URL</string>
-  <string name="video_set_url_msg">Videon URL:</string>
-  <string name="video_set_url_hint">rtsp://palvelin/tiedosto</string>
 </resources>
