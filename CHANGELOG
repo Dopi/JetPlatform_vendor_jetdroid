@@ -2,13 +2,30 @@ SpicagenMod Froyo, based on CyanogenMod 6.1.1
 great thanks to LeshaK & criminal - "grandfathers" of this project
 ========
 Major TODO's:
-- SIM Toolkit
-- USSD codes
+- SIM Toolkit & USSD in extended networks
 - BT bugs and avrcp
+- OpenVPN
 - kernel
 - DivX
 - RTL support is coming in next release!
 ========
+
+BETA1
+* new kernel WLAN module to avoid SoDs (Lukiqq)
+* final DPad music controls (cadavre)
+* final framework theme text colors (cadavre)
+* possibility of locking Phone and Contacts in memory so phone can be more like phone (cadavre)
+* integrated Intercept3D drivers (cadavre)
+* you can use CM and SM .xml theme files now (cadavre)
+* Finnish localization (FI translation team) [fi-rFI]
+* GB green clock text color (Freedom)
+* Parrot autopairing fix (cadavre)
+* latest ADWLauncher (nebkat)
+* SGM logo/anim (samdroid.net community)
+* looping ringtone (criminal)
+* avoid immediate turning on/off wifi freeze (cadavre)
+* lockscreen overlap fix (cadavre)
+* Live Wallpapers enabled
 
 pre-beta-2 (alpha_b2)
 * [source] vendor & device trees cleaning and fixing (LeshaK)

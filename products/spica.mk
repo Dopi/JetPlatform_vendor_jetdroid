@@ -13,7 +13,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 PRODUCT_NA
 PRIVATE_BUILD_DESC="spica-user 2.2.1 FRG83 SM-froyo"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=SpicagenMod-CMbased611-alpha_b2
+    ro.modversion=SpicagenMod-froyo-BETA1
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
@@ -70,8 +70,13 @@ ifeq ($(BOARD_HAVE_FM_RADIO),true)
 endif
 
 # Live wallpaper packages
-PRODUCT_PACKAGES += \
-    librs_jni
+ifdef SPICA_WITH_LIVEWALLPAPERS
+    PRODUCT_PACKAGES += \
+        LiveWallpapers \
+        LiveWallpapersPicker \
+        MagicSmokeWallpapers \
+        librs_jni
+endif
 
 #
 # Copy bootanimation
@@ -108,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/spica/prebuilt/common/xbin/powertop:system/xbin/powertop \
     vendor/spica/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
-SPICA_WITH_GOOGLE:=true
 ifdef SPICA_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
 	vendor/spica/proprietary/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
@@ -136,7 +140,6 @@ ifdef SPICA_WITH_GOOGLE
 	vendor/spica/proprietary/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
 	vendor/spica/proprietary/SetupWizard.apk:system/app/SetupWizard.apk \
 	vendor/spica/proprietary/Talk.apk:system/app/Talk.apk \
-	vendor/spica/proprietary/Twitter.apk:system/app/Twitter.apk \
 	vendor/spica/proprietary/Vending.apk:system/app/Vending.apk \
 	vendor/spica/proprietary/VoiceSearch.apk:system/app/VoiceSearch.apk \
 	vendor/spica/proprietary/YouTube.apk:system/app/YouTube.apk
