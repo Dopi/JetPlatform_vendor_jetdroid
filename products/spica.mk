@@ -57,10 +57,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     ADWLauncher \
+    DSPManager \
+    FileManager \
     openvpn \
     SMParts \
     SMPartsHelper \
-    DSPManager \
     Stk \
     Superuser
 
