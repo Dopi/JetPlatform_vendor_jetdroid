@@ -9,11 +9,11 @@ PRODUCT_DEVICE := GT-I5700
 PRODUCT_MODEL := GT-I5700
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 PRODUCT_NAME=GT-I5700 BUILD_FINGERPRINT=samsung/GT-I5700/GT-I5700/GT-I5700:2.2.1/FRG83/60505:user/release-keys TARGET_BUILD_TYPE=userdebug BUILD_VERSION_TAGS=release-keys
-PRIVATE_BUILD_DESC="spica-user 2.2.1 FRG83 SM-froyo"
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRG83 BUILD_DISPLAY_ID=FRG83 PRODUCT_NAME=GT-I5700 BUILD_FINGERPRINT=samsung/GT-I5700/GT-I5700/GT-I5700:2.2.2/FRG83/60505:user/release-keys TARGET_BUILD_TYPE=userdebug BUILD_VERSION_TAGS=release-keys
+PRIVATE_BUILD_DESC="spica-user 2.2.2 FRG83 SM-froyo"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=SpicagenMod-froyo-BETA1
+    ro.modversion=SpicagenMod-froyo-BETA2
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
@@ -93,7 +93,7 @@ include frameworks/base/data/sounds/AudioPackage4.mk
 
 PRODUCT_COPY_FILES += \
     vendor/spica/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/spica/prebuilt/common/bin/firstboot.sh:system/bin/firstboot.sh \
+    vendor/spica/prebuilt/common/bin/firstboot_to_run.sh:system/bin/firstboot_to_run \
     vendor/spica/prebuilt/common/bin/remount:system/bin/remount \
     vendor/spica/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/spica/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
