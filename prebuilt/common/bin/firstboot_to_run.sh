@@ -21,6 +21,9 @@ sleep 5
 # Default Lockscreen style
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('lockscreen_style_pref', '1');"
 
+# Deafult settings for Lockscreen
+# needs to be filled
+
 # Music controls
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('statusbar_music_controls', '1');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('statusbar_always_music_controls', '0');"
@@ -29,7 +32,7 @@ sleep 5
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('dpad_music_controls', '0');"
 
 # Default theme options
-/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('clock_color', '-1');"
+/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('clock_color', '-7616512');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('dbm_color', '-16777216');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('date_color', '-1');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('plmn_label_color', '-2039584');"
@@ -49,4 +52,8 @@ sleep 5
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('hdpi_battery_alignment', '0');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('show_spn_ls', '0');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('show_spn_sb', '0');"
+
+# Copy RockPlayer files to /data/data
+/system/xbin/cp /system/bin/rockplayer/* /data/data/org.freecoder.android.cmplayer/lib/
+/system/xbin/rm -r /system/bin/rockplayer
 
