@@ -57,8 +57,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     ADWLauncher \
+    DownloadProviderUi \
     DSPManager \
     FileManager \
+    GenKiller \
     openvpn \
     SMParts \
     SMPartsHelper \
