@@ -93,7 +93,7 @@ include frameworks/base/data/sounds/AudioPackage4.mk
 
 PRODUCT_COPY_FILES += \
     vendor/spica/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/spica/prebuilt/common/bin/firstboot_to_run.sh:system/bin/firstboot_to_run \
+    vendor/spica/prebuilt/common/bin/firstboot_to_run.sh:system/bin/firstboot_to_run.sh \
     vendor/spica/prebuilt/common/bin/remount:system/bin/remount \
     vendor/spica/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/spica/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \

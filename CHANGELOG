@@ -2,12 +2,60 @@ SpicagenMod Froyo, based on CyanogenMod 6.1.1
 great thanks to LeshaK & criminal - "grandfathers" of this project
 ========
 Major TODO's:
-- SIM Toolkit & USSD in extended networks
-- BT bugs and avrcp
-- kernel
+- SIM Toolkit & USSD in extended networks [major in next release]
+- BT bugs and avrcp [major in next release]
 - DivX
-- RTL support is coming! [samer72]
 ========
+
+BETA2
+* Android 2.2.2 (AOSP)
+* big code clean-up (darth-llamah)
+* Bluetooth discoverability configurable (CyanogenMod, nebkat)
+* clock text color fixes (nebkat)
+* CM FileManager enabled (cadavre)
+* DownloadManager and Browser from Gingerbread (nebkat)
+* Email policies fix for Exchange (cadavre)
+* extended SMS/MMS writing area to 6 lines in portrait (cadavre)
+* framework cleanups (nebkat)
+X GenKiller task manager (cadavre)
+X init of screen state switch script in framework's PowerManager (cadavre)
+* kernel framebuffer fix (tom3q)
+* modified build flags and scripts (CyanogenMod, LeshaK, guybrusht)
+* power button disabled in lockscreen (cadavre)
+* PowerWidget - more long-press options (cadavre)
+* rotary answer for calls (nebkat)
+* RTL for framework and webkit (Y6b, cadavre) [available as additional package]
+* SGM logo/anim (samdroid.net community)
+* SMParts cleanup (nebkat)
+* SMS send to wrong recipient fix (cadavre)
+* some build fixes (Piskor)
+* status bar PowerWidget new options (nebkat)
+* sync off for sqlite databases improves in speed (XDA, cadavre)
+* xml importing from CM and SGM fixed (cadavre)
+* lockscreen improvements: (CyanogenMod, nebkat)
+  - rotary lockscreen unlock drag down
+  - music addons
+  - battery % info
+  - tab vibration on/off
+  - mms/phone tab custom apps
+* Android fixes: (submitted by Piskor)
+  - DNS fix for wifi
+  - Change default DNS server for Tethering
+  - Introduce a list of all the audio files
+  - Telephony: Fix radio state printing
+  - Telephony: Process MT SMS with MTI set to 3
+  - Fixing counting the number of days in call log screen
+  - Change in media scanner to set correct date
+  - frameworks/base/telephony: Release wakelock on RIL request send error
+  - Changing connect and response timeout
+  - Bluetooth OBEX timeout problem
+  - Avoid leaking sockets
+  - Launcher is missing anti-aliasing
+  - java.lang.RuntimeException:Unable to pause activity (com.android.settings.applications.StorageUse)
+ 
+* NEEDS CHECKING:
+X avoid unwanted orientation chages on activity launch (cadavre)
+X ! fix for phone/contacts locking in memory (cadavre)
 
 BETA1
 * new kernel WLAN module to avoid SoDs (Lukiqq)
@@ -21,7 +69,6 @@ BETA1
 * GB green clock text color (Freedom)
 * Parrot autopairing fix (cadavre)
 * latest ADWLauncher (nebkat)
-* SGM logo/anim (samdroid.net community)
 * looping ringtone (criminal)
 * avoid immediate turning on/off wifi freeze (cadavre)
 * lockscreen overlap fix (cadavre)
