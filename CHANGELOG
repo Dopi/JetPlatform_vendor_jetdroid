@@ -7,6 +7,10 @@ Major TODO's:
 - DivX
 ========
 
+BETA3
+* GenKiller task manager with "Lock in memory" customization (cadavre)
+* link to GenKiller on long-press home button (cadavre)
+
 BETA2
 * Android 2.2.2 (AOSP)
 * big code clean-up (darth-llamah)
@@ -17,14 +21,12 @@ BETA2
 * Email policies fix for Exchange (cadavre)
 * extended SMS/MMS writing area to 6 lines in portrait (cadavre)
 * framework cleanups (nebkat)
-X GenKiller task manager (cadavre)
-X init of screen state switch script in framework's PowerManager (cadavre)
-* kernel framebuffer fix (tom3q)
+* locking in memory fix for Phone, Contacts and Superuser (cadavre)
 * modified build flags and scripts (CyanogenMod, LeshaK, guybrusht)
 * power button disabled in lockscreen (cadavre)
 * PowerWidget - more long-press options (cadavre)
 * rotary answer for calls (nebkat)
-* RTL for framework and webkit (Y6b, cadavre) [available as additional package]
+> RTL for framework and webkit (Y6b, cadavre) [available as additional package]
 * SGM logo/anim (samdroid.net community)
 * SMParts cleanup (nebkat)
 * SMS send to wrong recipient fix (cadavre)
@@ -53,10 +55,6 @@ X init of screen state switch script in framework's PowerManager (cadavre)
   - Launcher is missing anti-aliasing
   - java.lang.RuntimeException:Unable to pause activity (com.android.settings.applications.StorageUse)
  
-* NEEDS CHECKING:
-X avoid unwanted orientation chages on activity launch (cadavre)
-X ! fix for phone/contacts locking in memory (cadavre)
-
 BETA1
 * new kernel WLAN module to avoid SoDs (Lukiqq)
 * final DPad music controls (cadavre)
