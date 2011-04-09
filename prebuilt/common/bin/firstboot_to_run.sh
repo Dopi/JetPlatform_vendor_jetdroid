@@ -34,10 +34,10 @@ sleep 5
 # Default theme options
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('clock_color', '-7616512');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('dbm_color', '-16777216');"
-/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('date_color', '-1');"
+/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('date_color', '-2039584');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('plmn_label_color', '-2039584');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('spn_label_color', '-2039584');"
-/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('new_notifications_ticker_color', '-1');"
+/system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('new_notifications_ticker_color', '-2039584');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('notifications_count_color', '-7039852');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('no_notifications_color', '-7039852');"
 /system/xbin/sqlite3 $DATABASE "INSERT INTO system (name, value) VALUES ('ongoing_notifications_color', '-7039852');"

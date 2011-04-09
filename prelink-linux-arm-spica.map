@@ -120,6 +120,7 @@ libemoji.so             0xA7500000 # [<64K]
 libjni_latinime.so      0xA7400000 # [~1M]
 libjni_pinyinime.so     0xA7300000 # [~1M]
 libttssynthproxy.so     0xA7200000 # [~1M] for frameworks/base
+samdroidtools.so        0xA7100000 # [<64K]
 libttspico.so           0xA7000000 # [~2M] for external/svox
 
 # pv libraries
