@@ -1,0 +1,109 @@
+SpicagenMod Froyo, based on CyanogenMod 6.1.1
+great thanks to LeshaK & criminal - "grandfathers" of this project
+========
+Major TODO's:
+- SIM Toolkit & USSD in extended networks [major in next release]
+- BT bugs and avrcp [major in next release]
+- DivX
+========
+
+BETA3
+* GenKiller task manager with "Lock in memory" customization (cadavre)
+* link to GenKiller on long-press home button (cadavre)
+
+BETA2
+* Android 2.2.2 (AOSP)
+* big code clean-up (darth-llamah)
+* Bluetooth discoverability configurable (CyanogenMod, nebkat)
+* clock text color fixes (nebkat)
+* CM FileManager enabled (cadavre)
+* DownloadManager and Browser from Gingerbread (nebkat)
+* Email policies fix for Exchange (cadavre)
+* extended SMS/MMS writing area to 6 lines in portrait (cadavre)
+* framework cleanups (nebkat)
+* locking in memory fix for Phone, Contacts and Superuser (cadavre)
+* modified build flags and scripts (CyanogenMod, LeshaK, guybrusht)
+* power button disabled in lockscreen (cadavre)
+* PowerWidget - more long-press options (cadavre)
+* rotary answer for calls (nebkat)
+> RTL for framework and webkit (Y6b, cadavre) [available as additional package]
+* SGM logo/anim (samdroid.net community)
+* SMParts cleanup (nebkat)
+* SMS send to wrong recipient fix (cadavre)
+* some build fixes (Piskor)
+* status bar PowerWidget new options (nebkat)
+* sync off for sqlite databases improves in speed (XDA, cadavre)
+* xml importing from CM and SGM fixed (cadavre)
+* lockscreen improvements: (CyanogenMod, nebkat)
+  - rotary lockscreen unlock drag down
+  - music addons
+  - battery % info
+  - tab vibration on/off
+  - mms/phone tab custom apps
+* Android fixes: (submitted by Piskor)
+  - DNS fix for wifi
+  - Change default DNS server for Tethering
+  - Introduce a list of all the audio files
+  - Telephony: Fix radio state printing
+  - Telephony: Process MT SMS with MTI set to 3
+  - Fixing counting the number of days in call log screen
+  - Change in media scanner to set correct date
+  - frameworks/base/telephony: Release wakelock on RIL request send error
+  - Changing connect and response timeout
+  - Bluetooth OBEX timeout problem
+  - Avoid leaking sockets
+  - Launcher is missing anti-aliasing
+  - java.lang.RuntimeException:Unable to pause activity (com.android.settings.applications.StorageUse)
+ 
+BETA1
+* new kernel WLAN module to avoid SoDs (Lukiqq)
+* final DPad music controls (cadavre)
+* final framework theme text colors (cadavre)
+* possibility of locking Phone and Contacts in memory so phone can be more like phone (cadavre)
+* integrated Intercept3D drivers (cadavre)
+* smooth YouTube HQ playing (cadavre thanks to Intercept)
+* you can use CM and SM .xml theme files now (cadavre)
+* Finnish localization (FI translation team) [fi-rFI]
+* GB green clock text color (Freedom)
+* Parrot autopairing fix (cadavre)
+* latest ADWLauncher (nebkat)
+* looping ringtone (criminal)
+* avoid immediate turning on/off wifi freeze (cadavre)
+* lockscreen overlap fix (cadavre)
+* Live Wallpapers enabled (cadavre)
+* using OpenVPN-android-settings app (cadavre)
+* minor changes (nebkat, piskor, cadavre)
+
+pre-beta-2 (alpha_b2)
+* [source] vendor & device trees cleaning and fixing (LeshaK)
+* DPad music controls fixes (cadavre)
+* SMParts bug fixes (cadavre)
+* YouTube hq play fix (cadavre)
+* new gapps 20110301 (piskor)
+* new Superuser and su lib (cadavre/criminal)
+* fix for default statusbar text colors (cadavre)
+* OpenVPN fixes (cadavre)
+* HU translation (HU translation team)
+* SMParts translations (Samdroid.net community)
+* "Launcher settings" bug fix (cadavre)
+* 3 secs long-press BACK to kill (cadavre)
+* minor changes (SM team)
+
+pre-beta-1 (alpha_b1)
+* initial build of SM (cadavre)
+* added SM-froyo specific prop settings (guybrusht)
+* included official Gingerbread theme (cadavre)
+* hi-res png for GB theme (Kyojin)
+* Ubuntu fonts (cadavre)
+* Statusbar music controls (cadavre)
+* settings for HOLD button (cadavre)
+* keep SU in memory to avoid non-granting su access (cadavre)
+* volume button orientation mapping (cadavre)
+* orientation listener changes (cadavre)
+* wake screen on new notification (f.e. sms, reminder, usb...) (cadavre)
+* new CMParts adapted from Gingerbread (cadavre)
+* created SMParts based on new CMParts (nebkat)
+* framework removals: (cadavre)
+- Bluetooth HID
+- mouse pointer
+
