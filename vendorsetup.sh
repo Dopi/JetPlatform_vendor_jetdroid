@@ -1,3 +1,3 @@
-add_lunch_combo spica-eng
+add_lunch_combo jet-eng
 
-PATH=$PATH:$PWD/vendor/spica/tools ; export PATH
+PATH=$PATH:$PWD/vendor/samsung/tools ; export PATH
