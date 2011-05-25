@@ -17,7 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-	vendor/samsung/CHANGELOG:system/etc/CHANGELOG.txt
+	vendor/jetdroid/CHANGELOG:system/etc/CHANGELOG.txt
 
 # Use edify for otapackage
 PRODUCT_SPECIFIC_DEFINES += TARGET_OTA_SCRIPT_MODE=amend
@@ -85,67 +85,67 @@ endif
 # Copy bootanimation
 #
 PRODUCT_COPY_FILES += \
-	vendor/samsung/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+	vendor/jetdroid/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Common SM overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/samsung/overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/jetdroid/overlay
 
 # Bring in some audio files
 include frameworks/base/data/sounds/AudioPackage4.mk
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/samsung/prebuilt/common/bin/firstboot_to_run.sh:system/bin/firstboot_to_run.sh \
-    vendor/samsung/prebuilt/common/bin/remount:system/bin/remount \
-    vendor/samsung/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/samsung/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/samsung/prebuilt/common/lib/libncurses.so:system/lib/libncurses.so \
-    vendor/samsung/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/samsung/prebuilt/common/etc/init.d/04apps2sd:system/etc/init.d/04apps2sd \
-    vendor/samsung/prebuilt/common/etc/init.d/05apps2sdoff:system/etc/init.d/05apps2sdoff \
-    vendor/samsung/prebuilt/common/etc/init.d/07userinit:system/etc/init.d/07userinit \
-    vendor/samsung/prebuilt/common/etc/init.d/99complete:system/etc/init.d/99complete \
-    vendor/samsung/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/samsung/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
-    vendor/samsung/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
-    vendor/samsung/prebuilt/common/etc/profile:system/etc/profile \
-    vendor/samsung/prebuilt/common/xbin/bash:system/xbin/bash \
-    vendor/samsung/prebuilt/common/xbin/htop:system/xbin/htop \
-    vendor/samsung/prebuilt/common/xbin/lsof:system/xbin/lsof \
-    vendor/samsung/prebuilt/common/xbin/nano:system/xbin/nano \
-    vendor/samsung/prebuilt/common/xbin/powertop:system/xbin/powertop \
-    vendor/samsung/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
+    vendor/jetdroid/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/jetdroid/prebuilt/common/bin/firstboot_to_run.sh:system/bin/firstboot_to_run.sh \
+    vendor/jetdroid/prebuilt/common/bin/remount:system/bin/remount \
+    vendor/jetdroid/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/jetdroid/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/jetdroid/prebuilt/common/lib/libncurses.so:system/lib/libncurses.so \
+    vendor/jetdroid/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/jetdroid/prebuilt/common/etc/init.d/04apps2sd:system/etc/init.d/04apps2sd \
+    vendor/jetdroid/prebuilt/common/etc/init.d/05apps2sdoff:system/etc/init.d/05apps2sdoff \
+    vendor/jetdroid/prebuilt/common/etc/init.d/07userinit:system/etc/init.d/07userinit \
+    vendor/jetdroid/prebuilt/common/etc/init.d/99complete:system/etc/init.d/99complete \
+    vendor/jetdroid/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/jetdroid/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
+    vendor/jetdroid/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
+    vendor/jetdroid/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/jetdroid/prebuilt/common/xbin/bash:system/xbin/bash \
+    vendor/jetdroid/prebuilt/common/xbin/htop:system/xbin/htop \
+    vendor/jetdroid/prebuilt/common/xbin/lsof:system/xbin/lsof \
+    vendor/jetdroid/prebuilt/common/xbin/nano:system/xbin/nano \
+    vendor/jetdroid/prebuilt/common/xbin/powertop:system/xbin/powertop \
+    vendor/jetdroid/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 ifdef SPICA_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
-	vendor/samsung/proprietary/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-	vendor/samsung/proprietary/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
-	vendor/samsung/proprietary/Facebook.apk:system/app/Facebook.apk \
-	vendor/samsung/proprietary/features.xml:system/etc/permissions/features.xml \
-	vendor/samsung/proprietary/GenieWidget.apk:system/app/GenieWidget.apk \
-	vendor/samsung/proprietary/Gmail.apk:system/app/Gmail.apk \
-	vendor/samsung/proprietary/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
-	vendor/samsung/proprietary/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
-	vendor/samsung/proprietary/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-	vendor/samsung/proprietary/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-	vendor/samsung/proprietary/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-	vendor/samsung/proprietary/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
-	vendor/samsung/proprietary/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-	vendor/samsung/proprietary/googlevoice.apk:system/app/googlevoice.apk \
-	vendor/samsung/proprietary/HtcSettings.apk:system/app/HtcSettings.apk \
-	vendor/samsung/proprietary/LatinImeTutorial.apk:system/app/LatinImeTutorial.apk \
-	vendor/samsung/proprietary/libspeech.so:system/lib/libspeech.so \
-	vendor/samsung/proprietary/libvoicesearch.so:system/lib/libvoicesearch.so \
-	vendor/samsung/proprietary/Maps.apk:system/app/Maps.apk \
-	vendor/samsung/proprietary/MarketUpdater.apk:system/app/MarketUpdater.apk \
-	vendor/samsung/proprietary/MediaUploader.apk:system/app/MediaUploader.apk \
-	vendor/samsung/proprietary/NetworkLocation.apk:system/app/NetworkLocation.apk \
-	vendor/samsung/proprietary/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-	vendor/samsung/proprietary/SetupWizard.apk:system/app/SetupWizard.apk \
-	vendor/samsung/proprietary/Talk.apk:system/app/Talk.apk \
-	vendor/samsung/proprietary/Vending.apk:system/app/Vending.apk \
-	vendor/samsung/proprietary/VoiceSearch.apk:system/app/VoiceSearch.apk \
-	vendor/samsung/proprietary/YouTube.apk:system/app/YouTube.apk
+	vendor/jetdroid/proprietary/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+	vendor/jetdroid/proprietary/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+	vendor/jetdroid/proprietary/Facebook.apk:system/app/Facebook.apk \
+	vendor/jetdroid/proprietary/features.xml:system/etc/permissions/features.xml \
+	vendor/jetdroid/proprietary/GenieWidget.apk:system/app/GenieWidget.apk \
+	vendor/jetdroid/proprietary/Gmail.apk:system/app/Gmail.apk \
+	vendor/jetdroid/proprietary/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+	vendor/jetdroid/proprietary/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
+	vendor/jetdroid/proprietary/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+	vendor/jetdroid/proprietary/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
+	vendor/jetdroid/proprietary/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
+	vendor/jetdroid/proprietary/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
+	vendor/jetdroid/proprietary/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+	vendor/jetdroid/proprietary/googlevoice.apk:system/app/googlevoice.apk \
+	vendor/jetdroid/proprietary/HtcSettings.apk:system/app/HtcSettings.apk \
+	vendor/jetdroid/proprietary/LatinImeTutorial.apk:system/app/LatinImeTutorial.apk \
+	vendor/jetdroid/proprietary/libspeech.so:system/lib/libspeech.so \
+	vendor/jetdroid/proprietary/libvoicesearch.so:system/lib/libvoicesearch.so \
+	vendor/jetdroid/proprietary/Maps.apk:system/app/Maps.apk \
+	vendor/jetdroid/proprietary/MarketUpdater.apk:system/app/MarketUpdater.apk \
+	vendor/jetdroid/proprietary/MediaUploader.apk:system/app/MediaUploader.apk \
+	vendor/jetdroid/proprietary/NetworkLocation.apk:system/app/NetworkLocation.apk \
+	vendor/jetdroid/proprietary/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+	vendor/jetdroid/proprietary/SetupWizard.apk:system/app/SetupWizard.apk \
+	vendor/jetdroid/proprietary/Talk.apk:system/app/Talk.apk \
+	vendor/jetdroid/proprietary/Vending.apk:system/app/Vending.apk \
+	vendor/jetdroid/proprietary/VoiceSearch.apk:system/app/VoiceSearch.apk \
+	vendor/jetdroid/proprietary/YouTube.apk:system/app/YouTube.apk
 else
     PRODUCT_PACKAGES += \
         Provision \
