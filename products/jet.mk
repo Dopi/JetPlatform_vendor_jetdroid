@@ -73,7 +73,7 @@ ifeq ($(BOARD_HAVE_FM_RADIO),true)
 endif
 
 # Live wallpaper packages
-ifdef SPICA_WITH_LIVEWALLPAPERS
+ifdef JETDROID_WITH_LIVEWALLPAPERS
     PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/jetdroid/prebuilt/common/xbin/powertop:system/xbin/powertop \
     vendor/jetdroid/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
-ifdef SPICA_WITH_GOOGLE
+ifdef JETDROID_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
 	vendor/jetdroid/proprietary/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
 	vendor/jetdroid/proprietary/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \

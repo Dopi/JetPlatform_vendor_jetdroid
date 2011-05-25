@@ -1,0 +1,47 @@
+#
+# system.prop for jet
+#
+
+# Audio/Video/Screen/OGL related stuff
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=false
+ro.sf.lcd_density=240
+ro.opengles.version=131072
+
+# multitouch support
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
+
+# BT / Wifi / Net related
+net.bt.name=Android
+net.dns1=8.8.4.4
+net.dns2=8.8.8.8
+
+# Network settings + 3G/EDGE Hacks
+ro.ril.hep=1
+ro.ril.hsxpa=2
+ro.ril.enable.dtm=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=8
+ro.ril.enable.a53=1
+ro.ril.hsupa.category=5
+ro.ril.enable.3g.prefix=1
+ro.com.android.dataroaming=false
+
+# DalvikVM
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
+# Misc
+ro.setupwizard.mode=OPTIONAL
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
+
+# Speed tweaks:
+ro.kernel.android.checkjni=0
+# This defines the max event window manager can handle in 1 s.
+windowsmgr.max_events_per_sec=60
+
